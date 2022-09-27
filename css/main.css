@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -20,6 +21,18 @@ height: 100vh;
     background-color:#14253d;
     border-radius: 15px;
 }
+
+.view{
+    position: absolute;
+    margin: 130px;
+   
+}
+
+.view:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
 
 .img {
     margin-left: 20px;
@@ -41,7 +54,7 @@ height: 100vh;
 .text p {
     margin: 20px;
     font-size: 16px;
-    color: aquamarine;
+    color: darkgray;
 }
 
 .eth{
@@ -51,26 +64,52 @@ height: 100vh;
 .valor {
     font-size: 15px;
     text-decoration: none;
+    color: #00fff7;
+    
 }
+
+.clock {
+    margin-left: 100px;
+    margin-bottom: -3px;
+}
+
 .days{
-    margin-left:110px;
     text-decoration: none;
+    color: darkgray;
 }
 
 hr{
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 87%;
     height: 0px;
     background-color: white;
 }
 
-.text h2{
-    margin-top: 20px;
+.logo {
+    float: left;
+    width: 40px;
     margin-left: 20px;
-    font-size: 18px;
-    color: darkgrey;
 }
-.link {
-    font-size: 10px;
+.text .crea {
+    float: left;
+    margin-top: 13px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: darkgray;
+    
+}
+
+.text .link {
+    float: left;
+    color: #00fff7;
+    text-decoration: none;
+    margin-left: 6px;
+    margin-top: 13px;
+    font-size: 15px;
+}
+.text .link:hover {
+    color: white;
 }
