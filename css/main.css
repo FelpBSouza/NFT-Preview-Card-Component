@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color:#0d192b;
+width: 100vw;
+height: 100vh;
+}
+
+.box{
+    width: 300px;
+    height: 550px;
+    background-color:#14253d;
+    border-radius: 15px;
+}
+
+.img {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 260px;
+}
+
+.text h1{
+    margin: 20px;
+    color:#00fff7;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.text h1:hover {
+    color: white;
+}
+
+.text p {
+    margin: 20px;
+    font-size: 16px;
+    color: aquamarine;
+}
+
+.eth{
+    margin-left: 20px;
+}
+
+.valor {
+    font-size: 15px;
+    text-decoration: none;
+}
+.days{
+    margin-left:110px;
+    text-decoration: none;
+}
+
+hr{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 87%;
+    height: 0px;
+    background-color: white;
+}
+
+.text h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: darkgrey;
+}
+.link {
+    font-size: 10px;
+}
