@@ -5,11 +5,16 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet"> 
     <title>Nft preview card component</title>
 </head>
 <body>
     <section class="container">
         <div class="box">
+            <img class="view" src="./img/icon-view.svg" alt="View">
+
             <picture>
                 <source media="(min-width:375px)" srcset="./img/image-equilibrium.jpg">
                 <source media="(max-width:1440px)" srcset="./img/image-equilibrium.jpg">
@@ -24,12 +29,24 @@
                     <source media="(max-width:1440px)" srcset="./img/icon-ethereum.svg">
                     <img class="eth" src="./img/icon-ethereum.svg" alt="Logo eth">
                 </picture>
-
+                 
                 <a class="valor" href="#">0.041ETH</a>
+
+                <picture>
+                    <source media="(min-width:375px)" srcset="./img/icon-clock.svg">
+                    <source media="(max-width:1440px)" srcset="./img/icon-clock.svg">
+                    <img class="clock" src="./img/icon-clock.svg" alt="clock">
+                </picture>
+
                 <a class="days" href="#">3 days left</a>
-                <hr>
-                <h2>Creation of </h2>
-                <a class="link" href="">Jules Wyvern</a>
+                    <hr>
+                    <picture>
+                        <source media="(min-width:375px)" srcset="./img/image-avatar.png">
+                        <source media="(max-width:1440px)" srcset="./img/image-avatar.png">
+                        <img class="logo" src="./img/image-avatar.png" alt="perfil">
+                    </picture>
+                    <a class="crea" href="">Creation of</a>
+                    <a class="link" href="">Jules Wyvern</a>
             </div>
             
     </section>
